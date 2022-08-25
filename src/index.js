@@ -67,7 +67,6 @@ productos.delete('/:id',(req, res) => {
     } else {
     // guardar el nuevo array con el nuevo objeto agregado
     listaProductos.splice(productoBorrado, 1)
-    console.log(listaProductos)
     res.send("Elemento eliminado")
   }
 })
